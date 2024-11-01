@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SocialMedia from "./Social";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -22,9 +23,9 @@ const Hero = () => {
         </p>
 
         <SocialMedia />
-        <a href="#" className="btn">
+        <link href="#" className="btn">
           Download CV
-        </a>
+        </link>
       </div>
     </section>
   );
