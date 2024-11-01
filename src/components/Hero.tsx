@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import SocialMedia from "./Social";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 
-const Hero = () => {
+const Prac = () => {
   return (
     <section className="home" id="home">
       <div className="home-img objectFit='cover'">
@@ -12,7 +14,24 @@ const Hero = () => {
         <h3>Hello, Myself</h3>
         <h1>Farwa Kanwal</h1>
         <h3>
-          And I&#39;m a <span className="multiple-text">Web Developer</span>
+          And I&#39;m a{" "}
+          <span className="multiple-text">
+            {/* type writer animation,use code from npm library 'react-type-animation'*/}
+            <TypeAnimation
+              sequence={[
+                "Web Developer",
+                2000,
+                "UI/UX Designer",
+                2000,
+                "Frontend Developer",
+                2000,
+              ]}
+              wrapper="span"
+              speed={10}
+              style={{ fontSize: "1.5em", display: "inline-block" }}
+              repeat={Infinity}
+            />
+          </span>
         </h3>
         <p>
           As a dedicated web developer, I specialize in crafting innovative and
@@ -31,4 +50,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Prac;
