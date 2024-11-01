@@ -8,7 +8,7 @@ const Prac = () => {
   return (
     <section className="home" id="home">
       <div className="home-img objectFit='cover'">
-        <Image src="/pf.jpg" alt="portfolio-image" width={350} height={300} />
+        <Image src="/pf.jpg" alt="portfolio-image" width={350} height={300} priority className="img"/>
       </div>
       <div className="home-content">
         <h3>Hello, Myself</h3>

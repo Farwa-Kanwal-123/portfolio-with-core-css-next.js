@@ -32,6 +32,8 @@ const page = () => {
             alt="about profile picture"
             width={350}
             height={300}
+            priority
+            className="img"
           />
         </div>
       </section>
