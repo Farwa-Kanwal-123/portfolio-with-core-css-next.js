@@ -23,9 +23,9 @@ const Hero = () => {
         </p>
 
         <SocialMedia />
-        <link href="#" className="btn">
+        <Link href="#" className="btn">
           Download CV
-        </link>
+        </Link>
       </div>
     </section>
   );
