@@ -20,14 +20,14 @@ const Prac = () => {
             <TypeAnimation
               sequence={[
                 "Web Developer",
-                2000,
+                1000,
                 "UI/UX Designer",
-                2000,
+                1000,
                 "Frontend Developer",
-                2000,
+                1000,
               ]}
               wrapper="span"
-              speed={10}
+              speed={30}
               style={{ fontSize: "1.5em", display: "inline-block" }}
               repeat={Infinity}
             />
