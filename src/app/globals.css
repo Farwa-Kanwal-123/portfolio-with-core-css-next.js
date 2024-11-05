@@ -434,7 +434,7 @@ span{
       padding: 17px;
       font-size: 22px;
   }
-  .navbar.active{
+  .navbar .active{
       right:0;
   }
   .home{

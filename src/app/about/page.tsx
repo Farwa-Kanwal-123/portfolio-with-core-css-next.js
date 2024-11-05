@@ -1,6 +1,8 @@
+'use client';
 import React from "react";
 import Image from "next/image";
 import Button from "@/components/Button";
+import { TypeAnimation } from "react-type-animation";
 
 const page = () => {
   return (
@@ -11,7 +13,23 @@ const page = () => {
             About <span>Me</span>
           </h2>
           <h3>
-            I&#39;m a <span>Frontend Developer</span>
+            I&#39;m a  <span className="multiple-text">
+            {/* type writer animation,use code from npm library 'react-type-animation'*/}
+            <TypeAnimation
+              sequence={[
+                "Web Developer",
+                1000,
+                "UI/UX Designer",
+                1000,
+                "Frontend Developer",
+                1000,
+              ]}
+              wrapper="span"
+              speed={30}
+              style={{ fontSize: "1.5em", display: "inline-block" }}
+              repeat={Infinity}
+            />
+          </span>
           </h3>
           <p>
             As a passionate web developer, I specialize in crafting innovative
