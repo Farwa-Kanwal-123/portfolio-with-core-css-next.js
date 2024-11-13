@@ -4,7 +4,7 @@ import SocialMedia from "./Social";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
-const Prac = () => {
+const Hero = () => {
   return (
     <section className="home" id="home">
       <div className="home-img objectFit='cover'">
@@ -37,7 +37,7 @@ const Prac = () => {
           As a dedicated web developer, I specialize in crafting innovative and
           visually stunning websites that captivate audiences and drive results.
           With a passion for clean code and a keen eye for design, I transform
-          complex ideas into user-friendly digital experiences. Let@#39;s
+          complex ideas into user-friendly digital experiences. Let&#39;s
           collaborate to bring your vision to life.
         </p>
 
@@ -50,4 +50,4 @@ const Prac = () => {
   );
 };
 
-export default Prac;
+export default Hero;
