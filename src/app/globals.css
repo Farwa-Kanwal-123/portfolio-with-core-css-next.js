@@ -466,6 +466,9 @@ span {
     height: 50vw;
     margin-top: 4rem;
   }
+  .services{
+    margin-top: 10rem;
+  }
   .services h2 {
     margin-bottom: 3rem;
   }
