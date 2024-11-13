@@ -28,7 +28,7 @@ const Hero = () => {
               ]}
               wrapper="span"
               speed={30}
-              style={{ fontSize: "1.5em", display: "inline-block" }}
+              style={{ fontSize: "1.5em" }}
               repeat={Infinity}
             />
           </span>

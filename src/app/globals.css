@@ -130,8 +130,11 @@ section {
   margin-bottom: 2rem;
 }
 
-span {
+.multiple-text {
   color: var(--main-color);
+  white-space: nowrap;
+  overflow: hidden;
+
 }
 
 .home-content h1 {
@@ -479,6 +482,9 @@ span {
     height: 70vw;
     margin-top: 8rem;
   }
+  .multiple-text{
+    display:block
+  }
   .about-img .img {
     width: 70vw;
     height: 70vw;
@@ -488,5 +494,10 @@ span {
 @media (max-width: 617px) {
   html {
     font-size: 50%;
+  }
+}
+@media (max-width: 350px) {
+  .multiple-text {
+    font-size: 16px;
   }
 }
